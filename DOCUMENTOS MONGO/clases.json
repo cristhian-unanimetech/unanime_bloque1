@@ -1,0 +1,110 @@
+[
+  {
+    "_id": 1,
+    "fecha": "2024-06-01",
+    "hora_inicio": "10:00",
+    "hora_fin": "11:00",
+    "aforo_maximo": 50,
+    "activo": true,
+    "id_profesor": 2,
+    "id_sala": 3,
+    "inscripciones": {
+      "id_inscripcion": 1,
+      "id_alumno": 1,
+      "activo": true
+    },
+    "lista_espera": {
+      "id_lista_espera": 1,
+      "fecha": "2024-06-01",
+      "estado_actual": ["pendiente", "asignado", "cancelado"],
+      "id_alumno": 1,
+      "id_clase": 2
+    },
+    "logs": {
+      "id_log": 1,
+      "accion": "Inscripción",
+      "fecha": "2024-06-01"
+    }
+  },
+  {
+    "_id": 2,
+    "fecha": "2025-06-01",
+    "hora_inicio": "12:00",
+    "hora_fin": "13:00",
+    "aforo_maximo": 30,
+    "activo": false,
+    "id_profesor": 4,
+    "id_sala": 2,
+    "inscripciones": {
+      "id_inscripcion": 4,
+      "id_alumno": 3,
+      "activo": true
+    },
+    "lista_espera": {
+      "id_lista_espera": 1,
+      "fecha": "2025-06-01",
+      "estado_actual": ["pendiente", "asignado", "cancelado"],
+      "id_alumno": 3,
+      "id_clase": 2
+    },
+    "logs": {
+      "id_log": 1,
+      "accion": "Inscripción",
+      "fecha": "2025-06-01"
+    }
+  },
+  {
+    "_id": 3,
+    "fecha": "2024-07-01",
+    "hora_inicio": "13:00",
+    "hora_fin": "14:00",
+    "aforo_maximo": 55,
+    "activo": true,
+    "id_profesor": 1,
+    "id_sala": 4,
+    "inscripciones": {
+      "id_inscripcion": 4,
+      "id_alumno": 1,
+      "activo": true
+    },
+    "lista_espera": {
+      "id_lista_espera": 1,
+      "fecha": "2024-07-01",
+      "estado_actual": ["pendiente", "asignado", "cancelado"],
+      "id_alumno": 1,
+      "id_clase": 3
+    },
+    "logs": {
+      "id_log": 1,
+      "accion": "Inscripción",
+      "fecha": "2024-07-01"
+    }
+  },
+  {
+    "_id": 4,
+    "fecha": "2024-07-01",
+    "hora_inicio": "13:00",
+    "hora_fin": "14:00",
+    "aforo_maximo": 55,
+    "activo": true,
+    "id_profesor": 2,
+    "id_sala": 3,
+    "inscripciones": {
+      "id_inscripcion": 1,
+      "id_alumno": 1,
+      "activo": true
+    },
+    "lista_espera": {
+      "id_lista_espera": 1,
+      "fecha": "2024-07-01",
+      "estado_actual": ["pendiente", "asignado", "cancelado"],
+      "id_alumno": 1,
+      "id_clase": 4
+    },
+    "logs": {
+      "id_log": 1,
+      "accion": "Inscripción",
+      "fecha": "2024-07-01"
+    }
+  }
+]

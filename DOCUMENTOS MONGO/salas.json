@@ -1,0 +1,22 @@
+[
+  {
+    "_id": 1,
+    "nombre_sala": "B1",
+    "ocupada": "true"
+  },
+    {
+        "_id": 2,
+        "nombre_sala": "B2",
+        "ocupada": "false"
+    },
+    {
+        "_id": 3,
+        "nombre_sala": "B3",
+        "ocupada": "true"
+    },
+    {
+        "_id": 4,
+        "nombre_sala": "B4",
+        "ocupada": "false"
+    }
+]
