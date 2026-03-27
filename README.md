@@ -15,25 +15,25 @@ Tampoco existen cambios de horario y cancelaciones ya que no lo contemplaba como
 
 ### Relaciones que he declarado
 
-* - Un alumno puede estar en varias clases
-* - Una clase puede contener varios alumnos
-* - En este caso inscripciones haría la unión
-* - * Alumnos N:M Clases
+ - Un alumno puede estar en varias clases
+ - Una clase puede contener varios alumnos
+ - En este caso inscripciones haría la unión
+ - * Alumnos N:M Clases
 
-* - Una clase la imparte un profesor
-* - Un profesor imparte varias clases (pero nunca 2 en simultaneo)
-* - * Profesor 1 : n Clases
+ - Una clase la imparte un profesor
+ - Un profesor imparte varias clases (pero nunca 2 en simultaneo)
+ - * Profesor 1 : n Clases
 
-* - Una clase la imparte un profesor en una sala y en un horario
-* - Una sala tiene varias clases en distintos momentos
-* - Una clase se realiza en una sala unicamente
-* - * Sala 1:n Clases
+ - Una clase la imparte un profesor en una sala y en un horario
+ - Una sala tiene varias clases en distintos momentos
+ - Una clase se realiza en una sala unicamente
+ - * Sala 1:n Clases
 
-* - Si una clase se llena el alumno pasaría a lista de espera
-* - Una clase puede tener también varios alumnos en lista de espera asi como un alumno puede estar en lista de espera de varias clases
+ - Si una clase se llena el alumno pasaría a lista de espera
+ - Una clase puede tener también varios alumnos en lista de espera asi como un alumno puede estar en lista de espera de varias clases
 
-* - Una clase puede tener varios logs o cambios (por x motivos)
-* - * Clase 1 : n Logs
+ - Una clase puede tener varios logs o cambios (por x motivos)
+ - * Clase 1 : n Logs
 
 ### Resumen de relaciones
 
