@@ -1,0 +1,55 @@
+{
+  "_id": 1,
+  "nombre_clase": "Matemáticas",
+  "fecha": "2024-06-01",
+  "hora_inicio": "10:00",
+  "hora_fin": "11:00",
+  "aforo_maximo": 50,
+  "activo": true,
+
+  "profesor": {
+    "id": 2,
+    "nombre": "Profesor 2"
+  },
+
+  "sala": {
+    "id": 3,
+    "nombre": "B3"
+  },
+
+  "inscripciones": [
+    {
+      "id_alumno": 1,
+      "nombre": "Alumno 1",
+      "activo": true,
+      "fecha_inscripcion": "2024-05-20"
+    },
+    {
+      "id_alumno": 2,
+      "nombre": "Alumno 2",
+      "activo": true,
+      "fecha_inscripcion": "2024-05-21"
+    }
+  ],
+
+  "lista_espera": [
+    {
+      "id_alumno": 3,
+      "nombre": "Alumno 3",
+      "posicion": 1,
+      "estado": "pendiente",
+      "fecha": "2024-05-22"
+    }
+  ],
+
+  "logs": [
+    {
+      "accion": "inscripcion",
+      "fecha": "2024-05-20"
+    },
+    {
+      "accion": "cancelacion",
+      "fecha": "2024-05-25"
+    }
+  ]
+}

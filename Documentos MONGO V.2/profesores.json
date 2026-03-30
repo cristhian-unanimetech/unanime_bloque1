@@ -1,0 +1,26 @@
+[
+  {
+    "_id": 1,
+    "nombre": "Profesor 1",
+    "apellido": "M. R.",
+    "asignatura": "Matematicas"
+  },
+  {
+    "_id": 2,
+    "nombre": "Profesor 2",
+    "apellido": "J. F.",
+    "asignatura": "Castellano"
+  },
+  {
+    "_id": 3,
+    "nombre": "Profesor 3",
+    "apellido": "H. H.",
+    "asignatura": "Ciencia"
+  },
+  {
+    "_id": 4,
+    "nombre": "Profesor 4",
+    "apellido": "G R.",
+    "asignatura": "Física"
+  }
+]
