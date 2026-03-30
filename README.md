@@ -47,13 +47,13 @@ Clases, alumnos, profesores y salas son tablas que deberían existir por si sola
 
 ### Creacion de la BBDD
 Para la creación de todas la tablas he usado: 
-* - CREATE DATABASE nombre_bbdd y su uso con USE nombre_bbdd
-* - CREATE TABLE nombre_tabla (
+* CREATE DATABASE nombre_bbdd y su uso con USE nombre_bbdd
+* CREATE TABLE nombre_tabla (
     nombre_columna TIPO CONSTRAIT
     +
     FOREING KEY (nombre de la clave foránea) REFERENCES tabla_original(id_nombre)
 )
-* - INSERT INTO nombre_tabla (nombre_campo, nombre_campo, nombre_campo) VALUES (valor, valor, valor)
+- INSERT INTO nombre_tabla (nombre_campo, nombre_campo, nombre_campo) VALUES (valor, valor, valor)
 
 ### Mejoras
 Ha esta base de datos se podrían implementar varios campos extras en alumnos, profesores, salas y logs ya que actualmente esta con los minimos para que se lea mejor.
@@ -114,14 +114,14 @@ Considero que el mantenimiento de estas bases de datos dependerá del previo y c
 Hay mucha más duplicidad de datos en NOSQL. Esto sucede apropósito ya que de esta manera se pueden realizar consultas mucho más rápidas a la BBDD.
 
 - ¿Qué ventajas tiene cada uno según el caso?
-VENTAJAS SQL:
+* VENTAJAS SQL:
     + Estructura más clara y mejor definida
     + Consistencia e integridad de datos: debido a que usa relaciones y validaciones
     + Mas fiable y seguro: cuenta con más años de desarrollo y está más pulido
     + Consultas más avanzadas: por sus funciones y operaciones que permiten consultas complejas
     + Mejores transacciones: se pueden agrupar mas operaciones en una sola transacción.
 
-VENTAJAS NOSQL:
+* VENTAJAS NOSQL:
     + Flexibilidad de esquema: no está atado a algo fijo
     + Buen rendimiento para cargas específicas
     + Buena gestión de BIG DATA: ideal para almacenar y gestionar gran cantidad de información
