@@ -49,13 +49,13 @@ Tampoco existen cambios de horario y cancelaciones ya que no lo contemplaba como
 
 ### Creacion de la BBDD
 Para la creación de todas la tablas he usado: 
-* - CREATE DATABASE nombre_bbdd y su uso con USE nombre_bbdd
-* - CREATE TABLE nombre_tabla (
+* CREATE DATABASE nombre_bbdd y su uso con USE nombre_bbdd
+* CREATE TABLE nombre_tabla (
     nombre_columna TIPO CONSTRAIT
     +
     FOREING KEY (nombre de la clave foránea) REFERENCES tabla_original(id_nombre)
 )
-* - INSERT INTO nombre_tabla (nombre_campo, nombre_campo, nombre_campo) VALUES (valor, valor, valor)
+- INSERT INTO nombre_tabla (nombre_campo, nombre_campo, nombre_campo) VALUES (valor, valor, valor)
 
 ### Mejoras
 Ha esta base de datos se podrían implementar varios campos extras en alumnos, profesores, salas y logs ya que actualmente esta con los minimos para que se lea mejor.
