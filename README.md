@@ -9,7 +9,7 @@ En este tipo de modelo se han declarado  7 tablas
 6. Lista_espera
 7. logs
 
-Clases, alumnos, profesores y salas son tablas que deberían existir por si solas, no obstante incripciones y lista de espera son tablas que nacen de una relación n:m entre alumnos y clases. En mi caso he dedicido prescindir de una tabla de horio y cancelaciones ya que considero que clases puede manejar esa información perfectamente sin necesidad de crear otra nueva subtabla.
+Clases, alumnos, profesores, logs y salas son tablas que deberían existir por si solas, no obstante incripciones y lista de espera son tablas que nacen de una relación n:m entre alumnos y clases. En mi caso he dedicido prescindir de una tabla de horario y cancelaciones ya que considero que clases puede manejar esa información perfectamente sin necesidad de crear otra nueva subtabla.
 
 ### Relaciones que he declarado
 
